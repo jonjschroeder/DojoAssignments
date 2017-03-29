@@ -1,50 +1,50 @@
-cd html
-cd HTML
-cd WebFundamentals
-copy NUL indentation.html
-cd..
-dir /b /s
+git log
+git revert -n
+git status
+git add .
+git commit -m "added favorite book"
+git log
+history
 doskey /HISTORY > history.txt
-cd desktop
-MD test
-type nul >> index.html
-copy NUL EMptyFile.txt
-copy /b NUL EmptyFile.txt
-Yes
+cd ..
 dir
-C:\Users\Jonathan\
-C:\Users\Jonathan\Desktop\test>copy index.html index_2.html
- cd test
- copy index.html index_2.html
-copy NUL [file name]
-copy NUL styles.css
-del styles.css
-cd desktop
-dir
-cd \
-cd Desktop
-c:\windows\desktop
-c:\Users\Jonathan\Desktop
-cd
-cd \Desktop
-cd Desktop
-cd desktop
-cd Documents and Settings
-cd Jonathan
-cd Desktop
-md destination
-xcopy [C:\Users\Jonathan\Desktop\test\index_2.html] [C:\Users\Jonathan\Desktop\destination]
-nm Dojo Assignments
-md Dojo Assignments
-cd Dojo Assignments
-md 'Dojo Assignments'
-md DojoAssignments
 cd DojoAssignments
-md WebFundamentals, Python
-md MEAN, Ruby, iOS, netCore
-cd Python
-copy NUL about.txt
+git init
+copy NUL index.html
+copy NUL style.css
+git add .
+git commit -m "adding everything"
+git remote add origin https://github.com/jonjschroeder/DojoAssignments.git
+git push -u origin master
+git log
+git status
+copy NUL readme.md
+git status
+git add .
+git commit -m "all done"
+git status
+git log
+git remote add origin https://github.com/jonjschroeder/DojoAssignments.git
+git push -u origin master
+doskey /HISTORY > history.txt
+git remote add origin https://github.com/jonjschroeder/assignment1_demo.git
+git push -u origin master
+git add.
+git add .
+git comit -m Jonathan Schroeder
+git commit -m Jonathan Schroeder
+..
 cd..
-cd WebFundamentals
-md Git, HTML, CSS, Javascript
-cd..
+md gittest
+cd gittest
+git init
+copy NUL styles.ccs
+copy NUL aboutMe.txt
+git status
+git add aboutMe.txt
+git commit -m updated aboutMe
+git add .
+git commit -m "updated aboutMe.txt"
+git status
+git add .
+git commit -m "added my favorite movie to aboutMe"

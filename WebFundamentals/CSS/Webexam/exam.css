@@ -1,0 +1,215 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+.wrapper{
+  width: 950px;
+  background-color:gray;
+  height: 1224px;
+}
+.navigation{
+  width:950px;
+  height:46px;
+  vertical-align: top;
+  background-color:white;
+  padding-bottom: 10px;
+}
+.navlink{
+  font-size: 12pt;
+  color:grey;
+  padding:15px;
+  margin-top:10px;
+  padding-bottom:15px;
+}
+.menuicon{
+  height: 46px;
+  width:auto;
+}
+.searchbox{
+
+  margin-left: 10px;
+  margin-top: 10px;
+  display:inline-block;
+}
+.text{
+
+  margin-left: 10px;
+  margin-top: 10px;
+  display:inline-block;
+}
+.accordance{
+  width:950px;
+  height:401px;
+  background-color: lightblue;
+  background-origin:
+}
+.main{
+  width:950px;
+  height: auto;
+}
+.accordance10{
+  width:946px;
+  height: 41px;
+  background-color:darkgray;
+  padding-top:10px;
+  padding-bottom: 10px;
+  color:#82b0d2;
+  border: 2px solid;
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+.navlink1{
+  font-size: 10pt;
+  color:lightblue;
+  margin-top:10px;
+  padding:20px;
+  padding
+}
+.discover{
+  width:908px;
+  height: 41px;
+  background-color: white;
+  padding: 20px;
+  border: solid;
+  border-color:grey;
+  border-width: 1px;
+}
+.h5{
+  font-size: 20pt;
+  color:gray;
+  display:inline-block;
+}
+.button{
+  background-color:#4681b2;
+  border-radius: 7px;
+  margin-left: 215px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px grey;
+  color:white;
+  padding:5px 70px;
+  display:inline-block;
+}
+.videoout{
+  width:928px;
+  height: 300px;
+  background-color: #f2f2f2;
+  padding:10px;
+  border: solid;
+  border-color:grey;
+  border-width: 1px;
+}
+.subcontents{
+  width:180px;
+  height:250px;
+  background-color:#f2f2f2;
+  display: inline-block;
+  padding: 10px;
+  margin-left:23px;
+  vertical-align: top;
+}
+.icon1{
+  height:20px;
+  width: auto;
+    display:inline-block;
+}
+.h4{
+  display:inline-block;
+  font-size: 10pt;
+}
+.text1{
+  font-size: 8pt;
+  padding-top:8px;
+}
+.watchnow{
+  height: 135px;
+  width: auto;
+  padding-top: 21px;
+  padding-bottom: 3px;
+}
+.taketour{
+  height: 104px;
+  width: auto;
+  padding-top: 14px;
+  padding-bottom: 30px;
+}
+.starttrial{
+  height: 111px;
+  width: auto;
+  padding-top: 14px;
+  padding-bottom: 24px;
+}
+.findproducts{
+  height: 115px;
+  width: auto;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+.button1{
+  background-color:#4681b2;
+  border-radius: 3px;
+  margin-left: 3px;
+  margin-top: 10px;
+  color:white;
+  padding:5px 55px;
+  font-size: 10pt;
+}
+.bottomround{
+  width:950px;
+  height: 41px;
+  background-color: white;
+  border: solid;
+  border-color:grey;
+  border-width: 1px;
+  margin-top: 40px;
+  margin-left:-13px;
+  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+.about{
+  width:950px;
+  height: 40px;
+  background-color: white;
+  margin-top: -1px;
+  margin-left: -11px;
+  border-bottom: solid;
+  border-color:grey;
+  border-width: 1px;
+
+}
+.navlink2{
+  font-size: 10pt;
+  color:black;
+  margin-top:10px;
+  padding:40px;
+  padding
+}
+.textbox{
+  width:950px;
+  height: 150px;
+  background-color:white;
+  margin-top: 0px;
+  margin-left: -11px;
+  border-bottom: solid;
+  border-color:grey;
+  border-width: 1px;
+}
+.subcontents1{
+  width: 50px;
+  height: 80px;
+  background-color: white;
+  display:inline-block;
+  padding:22px;
+  margin-left:27px;
+  vertical-align: top;
+}
+.list{
+  font-size: 8pt;
+  padding:1px;
+}
+.footer{
+  width:950px;
+  height: 80px;
+  background-color:white;
+  margin-top: 0px;
+  margin-left: -11px;
+}

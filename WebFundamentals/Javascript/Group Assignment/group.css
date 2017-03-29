@@ -1,0 +1,45 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+.buttonbox{
+  width: 200px;
+  height: 150px;
+  background-color: lightblue;
+  display:absolute;
+  margin-left: 385px;
+  margin-botton: 10px;
+
+}
+.wrapper{
+  height:1500px;
+  width: 1500px;
+  background-image: url("wireframe1.png");
+}
+.box{
+  height: 1000px;
+  width: 1000px;
+  background-color: lightblue;
+
+  margin-left: 385px;
+  margin-botton: 10px;
+}
+.button1{
+
+}
+.button2{
+
+}
+.button3{
+
+}
+.button4{
+
+}
+.button5{
+
+}
+.button6{
+
+}

@@ -1,0 +1,29 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+.wrapper{
+  width: 950px;
+  background-color:gray;
+  height: 100px;
+  padding:10px;
+}
+.box1{
+  max-width: 100%;
+}
+.box2{
+  max-width: 100%;
+}
+.box3{
+  max-width: 100%;
+}
+.box4{
+  max-width: 100%;
+}
+.box5{
+  max-width: 100%;
+}
+.ninja{
+  height: 20px;
+  width: auto;
+}

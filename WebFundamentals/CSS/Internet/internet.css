@@ -1,0 +1,159 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+.wrapper{
+  width: 950px;
+  background-color:gray;
+  height: 1000px;
+}
+.header{
+  width:950px;
+  height:100px;
+  vertical-align: top;
+  background-color:white;
+}
+.header span{
+
+}
+.globe{
+  height:80px;
+  width:auto;
+  margin-left: 10px;
+  margin-top: -59px;
+}
+.toptext{
+  margin-left: 34px;
+  margin-top: 10px;
+  padding:53px;
+  font-size: 40px;
+}
+.header1{
+  width:950px;
+  height:100px;
+  vertical-align: top;
+  background: linear-gradient(#28679d , #5484aa ,#28679d );
+}
+.www{
+  margin-left: 10px;
+  margin-top: 26px;
+  position:absolute;
+  font-size: 40px;
+  color:white;
+}
+.whatIn{
+  width:200px;
+  height:400px;
+  background-color:white;
+  display:inline-block;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.redtext{
+  color:red;
+}
+.button{
+  background-color:#4681b2;
+  border-radius: 7px;
+  margin-left: 10px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px grey;
+  color:white;
+  padding:5px 19px;
+}
+.button1{
+  background-color: #ee8400;
+  border-radius: 7px;
+  position:absolute;
+  margin-left: -149px;
+  margin-top: 40px;
+  box-shadow: 2px 2px 2px grey;
+  color:white;
+  padding:5px 8px;
+}
+.button2{
+  background-color: #1ec6df;
+  border-radius: 7px;
+  position:absolute;
+  margin-left: -121px;
+  margin-top: 260px;
+  box-shadow: 2px 2px 2px grey;
+  color:white;
+  padding:5px 19px;
+}
+.reinvent{
+  margin-left: 30px;
+  margin-top: 67px;
+  position:absolute;
+  font-size: 21px;
+  color:white;
+}
+.career{
+  margin-left: 21px;
+  margin-top: 86px;
+  position:absolute;
+  font-size: 21px;
+  color:white;
+}
+.weeks{
+  margin-left: 62px;
+  margin-top: 107px;
+  position:absolute;
+  font-size: 21px;
+  color:white;
+}
+.adbackground{
+  position: absolute;
+  margin-left: -147px;
+  margin-top: 78px;
+  height:230px;
+  width:auto;
+}
+.ninja{
+  position: absolute;
+  margin-left: -110px;
+  margin-top: 154px;
+  height:95px;
+  width:auto;
+}
+.sowhat{
+  font-size:10pt;
+  font-weight: bold;
+}
+.sowhat1{
+  font-size:8pt;
+  font-weight: bold;
+}
+.dns{
+  width:500px;
+  height:300px;
+  background-color:lightblue;
+  display:inline-block;
+  vertical-align: top;
+}
+.belowdns{
+  width:500px;
+  height:400px;
+  background-color:green;
+  vertical-align: bottom;
+}
+.home{
+  width:20px;
+  height:auto;
+}
+.hometext{
+  position: absolute;
+  margin-left: 24px;
+  margin-top: -20px;
+  font-size: 12pt;
+  column-rule-color: #3c76a7;
+}
+.client{
+  position: absolute;
+  height:20px;
+  width: auto;
+}
+.h4{
+  color:blue;
+}

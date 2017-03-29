@@ -1,0 +1,55 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+.wrapper{
+  width: 450px;
+
+  height: auto;
+  padding:10px;
+}
+.box1{
+  max-width: 100%;
+  margin-bottom:10px;
+
+}
+.box2{
+  max-width: 100%;
+
+  margin-bottom:10px;
+}
+.box3{
+  max-width: 100%;
+
+  margin-bottom:10px;
+}
+.box4{
+  max-width: 100%;
+
+  margin-bottom:10px;
+}
+.box5{
+  max-width: 100%;
+
+  margin-bottom:10px;
+}
+.ninja0{
+  max-width: 100%;
+  max-height: 100%;
+}
+.ninja1{
+  max-width: 100%;
+  max-height: 100%;
+}
+.ninja2{
+  max-width: 100%;
+  max-height: 100%;
+}
+.ninja3{
+  max-width: 100%;
+  max-height: 100%;
+}
+.ninja4{
+  max-width: 100%;
+  max-height: 100%;
+}
