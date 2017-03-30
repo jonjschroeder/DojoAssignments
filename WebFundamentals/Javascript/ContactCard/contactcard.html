@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Card</title>
+    <link rel="stylesheet" type="text/css" href="card.css">
+    <script type="text/javascript"src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        //var html_str = '';
+        //html_str += $('form')
+          $('form').submit(function(event) {
+            var html_str = '';
+            html_str = '<div>';
+            html_str += '<h3>' + $('input[name="firstname"]').val() + '</h3>';
+            html_str += '<p>' + $('input[name="Discription"]').val() + '</p>';
+            html_str += '</div>';
+            var div = document.createElemnt('card1');
+            document.body.append('card1')
+            $('card1').append(html_str);
+            console.log(event);
+          });
+      });
+
+
+    </script>
+  </head>
+  <body>
+    <table class = "table">
+    <tr class = "tr">
+      <th class = "th">First Name</th>
+      <th class = "th">Last Name</th>
+      <th class = "th">Email Address</th>
+      <th class = "th">Contact #</th>
+    </tr>
+    <TR>
+      <td>Kris</td>
+      <td>Ekenes</td>
+      <td>Kris@gmail.com</td>
+      <td>555-5555</td>
+    </tr>
+  </table>
+    <h1 class = "h1">Make Card</h1>
+    <form action="javascript:alert( 'success!' );">
+      First name:<br>
+      <input type="text" name="firstname" value="Mickey"><br>
+      Description:<br>
+      <textarea name = "text" cols = "25" rows = "5"></textarea><br><br>
+      <input type="submit" value="Submit">
+    </form>
+    <div class = "card">
+      <h3 class ="h3">asdfasd</h3>
+      <p>asdfas</p>
+    </div>
+
+  </body>
+</html>

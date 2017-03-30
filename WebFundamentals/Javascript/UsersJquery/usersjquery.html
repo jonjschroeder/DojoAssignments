@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Users Jquery</title>
+    <link rel="stylesheet" type="text/css" href="usersjquery.css">
+    <script type="text/javascript"src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        //var html_str = '';
+        //html_str += $('form')
+          $('form').submit(function(event) {
+            var html_str = '';
+            html_str = '<tr>';
+            html_str += '<td>' + $('input[name="firstname"]').val() + '</td>';
+            html_str += '<td>' + $('input[name="lastname"]').val() + '</td>';
+            html_str += '<td>' + $('input[name="Email"]').val() + '</td>';
+            html_str += '<td>' + $('input[name="Contact"]').val() + '</td>';
+            html_str += '</tr>';
+            $('table').append(html_str);
+            console.log(event);
+          });
+      });
+
+
+    </script>
+  </head>
+  <body>
+    <table class = "table">
+    <tr class = "tr">
+      <th class = "th">First Name</th>
+      <th class = "th">Last Name</th>
+      <th class = "th">Email Address</th>
+      <th class = "th">Contact #</th>
+    </tr>
+    <TR>
+      <td>Kris</td>
+      <td>Ekenes</td>
+      <td>Kris@gmail.com</td>
+      <td>555-5555</td>
+    </tr>
+  </table>
+    <h1 class = "h1">Add User</h1>
+    <form action="javascript:alert( 'success!' );">
+      First name:<br>
+      <input type="text" name="firstname" value="Mickey"><br>
+      Last name:<br>
+      <input type="text" name="lastname" value="Mouse"><br><br>
+      Email:<br>
+      <input type="text" name="Email" value="Mickey"><br>
+      Contact:<br>
+      <input type="text" name="Contact" value="Mouse"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+  </body>
+</html>

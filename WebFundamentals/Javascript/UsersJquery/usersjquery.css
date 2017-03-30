@@ -1,0 +1,43 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+.table{
+  width: 700px;
+  border: solid;
+  height: 50px;
+
+}
+.h1{
+
+}
+.table{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.tr{
+  padding: 5px;
+  text-align: left;
+  padding: 5px;
+  text-align: left;
+}
+.td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: left;
+}
+.th{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: left;
+}
+.card{
+  height : 50px;
+  width : 100px;
+  display: inline-block;
+  border:solid;
+  padding:5px;
+  background-color: lightblue;
+}
