@@ -11,46 +11,39 @@
         //html_str += $('form')
           $('form').submit(function(event) {
             var html_str = '';
-            html_str = '<div>';
-            html_str += '<h3>' + $('input[name="firstname"]').val() + '</h3>';
-            html_str += '<p>' + $('input[name="Discription"]').val() + '</p>';
+            html_str = '<div class="card">';
+            html_str += '<h3>' + $('input[name="firstname"]').val() + " "  + $('input[name="lastname"]').val() + '</h3>';
+            html_str += '<p id="back">' + $('textarea[name="Description"]').val() + '</p>';
             html_str += '</div>';
-            var div = document.createElemnt('card1');
-            document.body.append('card1')
-            $('card1').append(html_str);
+            $('.cardcontainer').append(html_str);
             console.log(event);
           });
+          $(document).on('click', '.card',
+            function(){
+              $(this).children().toggle();
+
+            })
       });
 
 
     </script>
   </head>
   <body>
-    <table class = "table">
-    <tr class = "tr">
-      <th class = "th">First Name</th>
-      <th class = "th">Last Name</th>
-      <th class = "th">Email Address</th>
-      <th class = "th">Contact #</th>
-    </tr>
-    <TR>
-      <td>Kris</td>
-      <td>Ekenes</td>
-      <td>Kris@gmail.com</td>
-      <td>555-5555</td>
-    </tr>
-  </table>
+
     <h1 class = "h1">Make Card</h1>
     <form action="javascript:alert( 'success!' );">
       First name:<br>
       <input type="text" name="firstname" value="Mickey"><br>
+      lastname:<br>
+      <input type="text" name="lastname" value="Mouse"><br>
       Description:<br>
-      <textarea name = "text" cols = "25" rows = "5"></textarea><br><br>
+      <textarea id="desc" name = "Description" value = "Description"></textarea><br>
       <input type="submit" value="Submit">
     </form>
-    <div class = "card">
-      <h3 class ="h3">asdfasd</h3>
-      <p>asdfas</p>
+
+    <div class = "cardcontainer">
+      <h2></h2>
+      <p></p>
     </div>
 
   </body>

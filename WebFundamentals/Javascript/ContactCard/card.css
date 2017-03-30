@@ -34,10 +34,22 @@
   text-align: left;
 }
 .card{
-  height : 50px;
-  width : 100px;
+  height : 100px;
+  width : 200px;
   display: inline-block;
   border:solid;
   padding:5px;
-  background-color: lightblue;
+  background-color: green;
+}
+.h3{
+
+}
+.cardcontainer{
+  width : 100px;
+  display: inline-block;
+  vertical-align: top;
+
+}
+#back{
+  display:none
 }
