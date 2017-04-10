@@ -1,0 +1,43 @@
+def add(a,b):
+x = a + b
+return x
+
+print add(3,5) 
+
+output  => 8
+
+def say_hi(name):
+	print "Hi, " + name
+
+We define parameters and pass in arguments
+
+We want to return some sort of value that we can use later in out program
+
+
+A functional call is equal to whatever that function returens
+
+def say_hi():
+	return "Hi"
+Greeting = say+hi()
+print greeting
+
+output = hi
+
+Returning a value from a function allows us to store that value
+in a variable
+Here we invoked the say_hi function and set it to the greeting variable
+When we print greeting we see that it contains the returned value of
+say_hit function "hi"
+
+Returning to caller
+
+
+We returned "Hi"
+Set greeting variable to say_hi() function 
+so when we print greeting variable it will give the returned value
+
+def add(a,b)
+	x = a+b
+	return x
+ 
+

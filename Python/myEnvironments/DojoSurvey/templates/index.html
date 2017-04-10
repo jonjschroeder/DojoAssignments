@@ -1,0 +1,28 @@
+<html>
+    <head>
+       <title>SURVEY</title>
+    </head>
+    <body>
+      <h1>Index Page</h1>
+      <h3>Create a User</h3>
+      <!-- read on to learn about form actions, we'll talk about the method in a later section -->
+      <form action='/users' method='post'>
+
+          Name: <input type='text' name='name'>
+            <select id = 'location' name = 'location'>
+              <option value="Seattle">Seattle</option>
+              <option value="Stavanger">Stavanger</option>
+              <option value="Mars">Mars</option>
+            </select>
+            <select id = 'language' name = 'language'>
+              <option value="English">English</option>
+              <option value="Spanish">Spanish</option>
+              <option value="Japanese">Japanese</option>
+            </select>
+            <textarea id = 'textarea' rows="4" cols="50" name = 'comment1'>
+                At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+            </textarea>
+          <input type='submit' value='create user'>
+      </form>
+    </body>
+</html>

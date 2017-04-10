@@ -1,0 +1,56 @@
+Notes
+
+indentation important
+
+if 
+---
+  else
+
+culy bracket define a dictionary
+
+mystring = " "
+
+Data types
+String
+Bulean
+Integers
+
+myint = 5
+myboolean = False
+
+Python has a dictionary = set of key value pairs
+or dictionary of dictionary or lists
+
+Data Structures= Tuple
+[] list
+
+While(True or False)
+myList =[1,2,3,4,5,6,7,8]
+
+for x in myList
+print x
+
+
+for x in range(myList)
+print x x is index position
+
+for x in myDict.items()
+print x ("a, 1")
+
+x = arr
+min = x[0]
+max = x[0]
+sum = x[0]
+
+if i in x:
+	if x[i]>max:
+		max = x[i]
+	print max
+
+if i in x:
+	if x[i]<min:
+		min = x[i]
+	print min
+sum += x[i]
+
+

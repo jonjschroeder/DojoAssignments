@@ -1,0 +1,24 @@
+int = 15
+if int >= 100:
+  print 'Big Number'
+else:
+  print 'Small number'
+
+ str = "Hello"
+ if len(str) >= 50:
+   print 'Long Sentence'
+ else:
+   print 'Short Sentence'
+
+
+asdf
+myList = [a,b,c,d,e,f,g,h,i,j]
+if len(myList) >=10:
+    print 'Big'
+else:
+    print 'Small'
+    def f():if len(myList) >=10:
+        print 'Big'
+    else:
+        print 'Small'
+        

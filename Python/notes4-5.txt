@@ -1,0 +1,53 @@
+What is a string
+Data type
+Integers
+Booleans
+Strings
+Person = {name = "Jonathan", Location : "Seatle"
+Create a variable that refereneces what this dictionary is. Person.location
+.notation
+person['age'] = 34 adds key into dictionary and adds value.
+quotation mark is importat because age is not defined
+
+Anything with a python file use [] notation
+Once a variable is assigned to the Library
+we can add key values 
+
+
+Tuples what defines?  a perenthesis
+Tuples (,)
+Tuples cannot be changed, but they are indexed as with arrays
+
+If I set up a variable
+person = (name, height, weight)
+type(person) -> type tuples
+person = 'phil','seattle', 34
+type(person) => tuple
+name, location age = person assigns to what is in the tuple
+
+def myfunction(parm)  Use that parameter in the function
+
+
+
+Debugging
+
+
+Store data
+
+Data structure
+Lists
+Dictionary 
+Tuples
+
+Dictionary = stored with "key" and "values"
+{keys, values}
+
+newarr = []
+for(i=0; i<arr.length; i++){
+	if(arr[i].length>0){
+		for(j=0; j<arr[i].length; j++)
+		  if(arr(i(j)) == "o")
+		newarr.push(arr[i])
+
+
+

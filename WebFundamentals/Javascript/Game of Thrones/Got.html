@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+        <title>Game of Thrones</title>
+        <link rel="stylesheet" type="text/css" href="got.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('img').click(function(){
+                    var house = $(this).attr('value')
+
+                        $.get("http://anapioficeandfire.com/api/houses/"+house+"/", function(res){
+                        // $('body').html(response);
+                        $('.info').append("<h1>Name: "+res.name+"</h1>")
+                        $('.info').append("<h3>Titles: "+res.titles+"</h3>")
+                        $('.info').append("<h4>Words: "+res.words+"</h4>")
+
+                    })
+
+                })
+
+            });
+        </script>
+<div class ="wrapper">
+    <body>
+            <img src = "stark.jpg"     class = "images1"   alt='stark' value ="362"/>
+            <img src = "targaryen.jpg" class = "images2"  alt='targaryen' value = "378"/>
+            <img src = "lannister.jpg" class = "images3"  alt='lannister' value = "229"/>
+            <img src = "baratheon.png" class = "images4"  alt='baratheon' value = "15"/>
+            <div class="info">
+
+           </div>
+    </body>
+  </div>
+</html>

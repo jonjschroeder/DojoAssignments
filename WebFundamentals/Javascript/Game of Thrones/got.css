@@ -1,0 +1,30 @@
+
+.info{
+  height: 200px;
+  width: 500px;
+  background-color: lightblue;
+
+
+
+}
+.images1{
+  height: 200px;
+  width: auto;
+}
+.images2{
+  height: 200px;
+  width: auto;
+}
+.images3{
+  height: 200px;
+  width: auto;
+}
+.images4{
+  height: 200px;
+  width: auto;
+}
+.wrapper{
+  height: 1000px;
+  height: 1000px;
+  background-color: grey;
+}

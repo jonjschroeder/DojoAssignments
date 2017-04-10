@@ -1,0 +1,184 @@
+Notes Virtual environment and Flask
+
+What is flask?
+Our server
+a framework
+a miroframework
+
+Every web appliation in needs barebones
+flask gives this wgsi module request on server side and do something with it
+Jenga then renders the HTML and CSS so that client can see it
+Rendering a simple response
+
+Flask is better for smaller based process
+you can get it running quick
+
+Django is biger
+
+Setting up a flask project
+
+
+VIRTUAL ENVIRONMENTS - tool forcreating unique sandboxes to control project dependencies.  Each virtual environment can contain different versions of 
+Python Flask or any combination of packages.  
+
+VIRTUALENV  - stay organized and flexible when working on multiple projects that have different dependencies.  
+
+VIDEO
+Creating simple flask application
+
+
+We imported the Flask module - that is used to create our app variable.  We need this in every app you build with flask
+
+We used the flask module to create an app variable which represents our web app.  
+
+We set up a routing rule using the @ symbol and running the app.rout function 
+The @ symbol specifies that the function that follows this rule will be triggered at any time that rounte is triggered.  In this case
+we are attaching the hello world function to the '/' route.
+
+Finally we ran the app.  This takes all of our routing rules that we set up and actually starts up the server.  
+
+route is much like a variable name we assign to a request.  
+route - communicate to the server what kind of info the client needs.  
+
+This route name is attached to a route on our server that points towards a specific set of instructions.  
+These instructions contain info abouthow to interperet the data being sent, operations that need to be completed. and the 
+response that should be sent back/  These instructions are the code we are creating.  
+
+ROUTE - two parts
+1.HTTP method(GET, POST<PUT< PATCH, DELETE)
+2. URL
+
+GET routes exist in order to request info from the server
+
+Now add tempolates directory alongside the hello.py file.  
+
+<html>
+  <body>
+    <p>Hello Flask!</p>
+  </body>
+</html>
+
+
+The GET METHOD
+
+when visiting and loads in response, we are seeing HTTP Get method in action
+
+Get method is used to request or get info from server.  
+So far all routes have been for GET requests.  
+
+We can have Get requests with forms.  
+
+Use POST - which passes data behind the senes in HTTP request message body. Not in URL string
+
+
+Every framework has different way of serving up static files
+
+Go into my folders. Hello Flask application create a folder static - images, javascript and css.
+Then you link it to the page
+
+url_for
+provide a directory name 
+my_style_sheet.css
+server is still running, refresh
+
+What if we wanted a javascript file?
+
+@app route(process)
+def process()
+if len(request.form['name'] <2
+	flash('need valid name')
+else
+	session [user.name] = requestform[name]
+
+
+In HTML
+<form>
+	<input type 'text name = name>
+submit
+</form>
+
+{% with messeges = get flashed.messages()%}
+ "loop thrru messages list"
+{%find with%}
+
+
+on top of the file 
+from Flask import Flask, request, render_templates, redirect, flash, session
+
+
+if we want to 
+
+create a js file. Make it alert('hello'):
+back to index file, create a script tag, <script type = 'text/javascript' src '{{url_for('static', filename = ...)}}
+
+How to organize files better
+hello flask folder incudes py static folder and templates 
+put folder js in static css folder into static folder.  So in static you have two folders js and css with the files within those files
+
+text editor
+css/my-style-shee.css
+
+str.
+'Friday'.concat('is today')
+
+Advan
+
+
+Sessions 
+
+First create a rout in our formtest project that serves a page that supplies the page with a name and email to display
+
+from flask import Flask, render_template, request, redirect, session
+
+Basic sessions
+
+encript the values into a cookie
+supply anything you want but we will supply a random number
+app.secret_key = os.urandom(24)
+
+
+def index():
+	session['user'] = 'Anthony'	
+	return 'Index'
+@app.route('/getsession')
+def getsession():
+	if 'user' in session:
+		return '
+
+
+Visit the home page of your retailer of choice
+Log into your account
+Submit search queries
+Browse the items from the resulting list
+View select items in detail
+Add certain items to your shopping cart
+Check out
+Receive confirmation of your order
+
+each one a full request response cycle.  
+browser sending a request and edns with the browser rendering a response from trhe server
+
+Http request response cycle is STATELESS
+each request response cycle instance is independent and ignorat of any instances that came before or will come after it
+
+along each request the retailer always knows and remembers
+
+- who you are
+- what youve searched for
+the items in your account
+etc
+
+How does the site know this if each HTTP request response cylce instance is stateless?
+Sites like your favorite online retailer make use of persistent data storage!
+
+Persistant data storage --> like a database. 
+Persistant data storage --> It can also come in the form of writing to a file. and thats what session does!
+
+HTTP request response is stateless but - we can read certain pieces of data that we stored in previous 
+cycles and write certain valuable pieces of data for use in future cycles
+
+Better using experience - decicions that are tracked, server can respond appropriately.  
+
+
+
+

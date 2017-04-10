@@ -1,0 +1,65 @@
+vehicle
+
+
+car
+whele - 4
+
+truck
+
+what do we want to define these
+
+
+We want a set of rules  - function
+
+vehicle class
+
+class vehicle(object):
+def__init__self
+when you envoke a method you dont have to pass in itself
+
+def__init__(self,whells,body)
+	self wheel - 
+
+
+What can each of these have and what can they do
+Barracks
+-Have - can have x and y coordinates, for health
+-Do  - create solders, move adnd destroy
+Farm
+x y coordinates health and capacity it can make each day
+
+do - move and destroy
+Temple
+
+CLASS - blueprint of what I want to do.  
+ATTRIBUTES - VARIABLES INSIDE CLASS
+METHODS - functions inside a class
+
+INSTANCE/OBJECT
+
+From the class we can make instances/objects
+
+Some attributes or methods you dont want the instances to have.  
+make an attribute or method private, then cannot be accessed to instances
+
+PUBLIC/PRIVATE
+constructor - method that the program will run when you create a new instance example: give it a certain health
+		find out how to create a constructor
+
+Lets say the barrack can upgrade - then it becomes barrack B barracks A -> additional methods and attributes
+Create a new class BA and inherit everything it can do and has.
+
+INHERETENCE
+
+PROTECTED   - If you wanted it to be private for instances but inhereted to new children class
+
+Create folders - 
+
+objects can store two different types of inof
+A class: Instructions for how to build many objects that share characteristics.
+An object: A data type built according to specifications provided by the class definition.
+An attribute: A value. Think of an attribute as a variable that is stored within an object.
+A method: A set of instructions. Methods are functions that are associated with an object. Any function included in the parent class definition can be called by an object of that class.
+
+
+
