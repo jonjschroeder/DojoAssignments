@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ninja Gold</title>
+    </head>
+    <body>
+        {{request.session.name}}
+        <h1>Welcome to My Portfolio</h1>
+        <p>The current time and date</p>
+        <p>Time:{{content}}</p>
+        <p>Date:{{date}}</p>
+
+
+        <div class="line">{{somekey}}</div>
+        <a href="/users">Submitted Info</a>
+        <a href="/aboutme">About Me</a>
+        <a href="/projects">Projects</a>
+        <form action="/new_user" method="post">
+            {% csrf_token %}
+                <p>Your Name<input type="text" name = "first_name"></p>
+                <p>Favorite Instrumet Type:<select name = 'cartype'>
+                  <option value="String">String</option>
+                  <option value="Percussion">Percussion</option>
+                  <option value="Woodwind">Woodwind</option>
+                  <option value="Electronic">Electronic</option>
+                </select></p>
+                <p>Favorite Music Genre:<select name = 'genretype'>
+                  <option value="Rock">Rock</option>
+                  <option value="Classical">Classical</option>
+                  <option value="Jazz">Jazz</option>
+                  <option value="Psychedelic">Psychedelic</option>
+                </select></p>
+                <p>Comment</p>
+            <input type="text" name = "comment">
+
+            <input type="submit" value = "submit">
+        </form>
+
+        <h1>Random Word Generator</h1>
+        <p>Attempt #{{request.session.run}}</p>
+        <form action='/gen' method = 'POST'>
+            {% csrf_token %}
+            <input type="submit" value ="Generate">
+        </form>
+        {{request.session.new_word}}
+
+        <h1>Ninja Gold</h1>
+        <p>Your Gold: {{request.session.sum}}</p>
+        <form action="/all" method="post">
+            {% csrf_token %}
+            <p>Farm:(earns 10-20 golds)<input type="hidden" name = 'location' value ="farm" ></p>
+            <input type="submit" value="Find Gold!"/>
+        </form>
+        <form action="/all" method="post">
+            {% csrf_token %}
+            <p>Cave:(earns 5-10 golds)<input type="hidden" name = 'location' value ="cave"></p>
+            <input type="submit" value="Find Gold!"/>
+        </form>
+        <form action="/all" method="post">
+            {% csrf_token %}
+            <p>House:(earns 2-5 golds)<input type="hidden" name = 'location' value ="house"></p>
+            <input type="submit" value="Find Gold!"/>
+        </form>
+        <form action="/all" method="post">
+            {% csrf_token %}
+            <p>Casino:(earns/takes 0-50 golds)<input type="hidden" name = 'location' value ="casino"></p>
+            <input type="submit" value="Find Gold!"/>
+        </form>
+        <p>Activities:</p>
+            <p>{{request.session.activity}} ({{date}} {{content}})</p>
+
+
+
+    </body>
+</html>
